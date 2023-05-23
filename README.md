@@ -11,6 +11,6 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-### This also have one added cart age
+### This also have one added cart page above the asked requirement
 
 on Cart Page you can see items added to cart and then checkout from the cart page itself
