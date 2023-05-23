@@ -10,7 +10,7 @@ In the project directory, you can run:
 
 ### npm install
 
-this will all react dependencies to your project
+this will install all react dependencies to your project
 
 #### `npm start`
 
