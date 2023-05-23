@@ -1,0 +1,45 @@
+{
+    "compilerOptions": {
+        "target": "ES6",
+        "outDir": "./dist/",
+        "moduleResolution": "node",
+        "allowJs": true,
+        "strict": true,
+        "esModuleInterop": true,
+        "jsx": "react",
+        "lib": [
+            "es2015",
+            "dom.iterable",
+            "es2016.array.include",
+            "es2017.object",
+            "dom"
+        ],
+        "module": "ES2020",
+        "removeComments": false,
+        "alwaysStrict": true,
+        "baseUrl": "src/",
+        "allowUnreachableCode": false,
+        "noImplicitThis": true,
+        "noUnusedLocals": false,
+        "noUnusedParameters": true,
+        "noImplicitReturns": true,
+        "noFallthroughCasesInSwitch": true,
+        "forceConsistentCasingInFileNames": true,
+        "importHelpers": true,
+        "paths": {
+            // "Components/*": [
+            //     "components/*"
+            // ],
+        }
+    },
+    "include": [
+        "src/**/*",
+        "src/custom.d.ts"
+    ],
+    "exclude": [
+        "node_modules",
+        "dist",
+        "**/*.test.jsx",
+        "**/*.test.js",
+    ]
+}
